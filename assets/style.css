@@ -1,0 +1,96 @@
+* {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #5e4c5a;
+    background-color: #ffe2d1;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #55917f;
+  }
+header img{
+    border-radius: 50%;
+    padding: 8px;
+    height: 150px;
+    align-items: flex-start;
+    background-color: #55917f;
+}
+header h1 {
+  display: inline-block;
+  text-align: left;
+  background-color: #55917f;
+  font-size: 70px;
+  color: #e1f0c4;
+}
+
+/* why won't header a's stuff work in nav? sad face */
+header a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #e1f0c4;
+    display: inline-block;
+    background-color: #55917f;
+  }
+nav {
+  margin-right: 20px;
+  float: right;
+  display: flex;
+}
+
+nav a:hover {
+    color: #5e4c5a;
+  }
+
+.main {
+    display: block;
+    padding: 30px 30px 30px 30px;
+    align-items: center;
+    justify-content: center;
+    font-size: medium;
+}
+.main h2 {
+    font-size: 34px;
+}
+.main a {
+  text-decoration: none;
+  color: #55917f;
+  font-weight: 700;
+  position: relative;
+}
+.main a:hover {
+  color: #5e4c5a;
+}
+
+.projects img {
+  align-items: center;
+}
+
+.project-1 img {
+  align-items: center;
+  display: flexbox;
+}
+
+.project-2,
+.project-3 {
+padding: 5px;
+display: flex;
+flex-wrap: wrap;
+}
+
+.social{
+    display: flex;
+    background-color: #55917f;
+    padding: 200px 0px 180px 0px;
+}
+
+  @media screen and (max-height: 450px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
+  }
