@@ -13,12 +13,14 @@ header {
   padding-bottom: 175px;
   background-color: #55917f;
   }
+
 header img{
     border-radius: 50%;
     height: 150px;
     float: left;
     background-color: #55917f;
 }
+
 header h1 {
   text-align: left;
   background-color: #55917f;
@@ -37,6 +39,7 @@ header a {
     display: inline-block;
     background-color: #55917f;
   }
+
 nav {
   display: flex;
   margin-top: 70px;
@@ -58,10 +61,12 @@ nav a:hover {
     margin-left: 170px;
     width: 65%;
 }
+
 .main h2 {
     font-size: 34px;
     padding-bottom: 5px;
 }
+
 .main a {
   text-decoration: none;
   color: #55917f;
@@ -74,6 +79,7 @@ nav a:hover {
 .main p {
   margin: 2% 0;
 }
+
 .projects {
   display: block;
   position: relative;
@@ -81,14 +87,17 @@ nav a:hover {
   height: auto;
   padding: 10px;
 }
+
 #project-2, #project-3 {
   width: 50%;
   height: auto;
   position: relative;
 }
+
 #project-2 {
   padding-right: 5px;
 }
+
 .overlay {
   position: absolute;
   top: 0;
@@ -101,9 +110,11 @@ nav a:hover {
   transition: .5s ease;
   background-color: #55917f;
 }
+
 .projects:hover .overlay {
   opacity: 1;
 }
+
 .text {
   color: #e1f0c4;
   background-color: #55917f;
@@ -116,14 +127,21 @@ nav a:hover {
   transform: translate(-50%, -50%);
   text-align: center;
 }
+
 .projects h3 {
   position: relative;
 }
+
 .items {
   display: flex;
   flex-wrap: wrap;
 }
 
+.social{
+    display: flex;
+    background-color: #55917f;
+    padding: 200px 0px 180px 0px;
+}
 
 footer {
    display: block;
@@ -143,13 +161,6 @@ footer a {
 
 footer a:hover {
   color: #5e4c5a;
-
-}
-
-.social{
-    display: flex;
-    background-color: #55917f;
-    padding: 200px 0px 180px 0px;
 }
 
   @media screen and (max-height: 450px) {
