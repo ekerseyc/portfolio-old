@@ -29,7 +29,6 @@ header h1 {
   float: left;
 }
 
-/* why won't header a's stuff work in nav? sad face */
 header a {
     padding: 6px 8px 6px 16px;
     text-decoration: none;
@@ -55,34 +54,96 @@ nav a:hover {
     align-items: center;
     justify-content: center;
     font-size: medium;
+    margin-right: 100px;
+    margin-left: 170px;
+    width: 65%;
 }
 .main h2 {
     font-size: 34px;
+    padding-bottom: 5px;
 }
 .main a {
   text-decoration: none;
   color: #55917f;
   font-weight: 700;
-  position: relative;
 }
 .main a:hover {
   color: #5e4c5a;
 }
 
-.projects img {
-  align-items: center;
+.main p {
+  margin: 2% 0;
+}
+.projects {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding: 10px;
+}
+#project-2, #project-3 {
+  width: 50%;
+  height: auto;
+  position: relative;
+}
+#project-2 {
+  padding-right: 5px;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #55917f;
+}
+.projects:hover .overlay {
+  opacity: 1;
+}
+.text {
+  color: #e1f0c4;
+  background-color: #55917f;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.projects h3 {
+  position: relative;
+}
+.items {
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.project-1 img {
-  align-items: center;
-  display: flexbox;
+
+footer {
+   display: block;
+    padding: 30px 30px 30px 30px;
+    align-items: center;
+    justify-content: center;
+    font-size: medium;
+    margin-left: 160px;
 }
 
-.project-2,
-.project-3 {
-padding: 5px;
-display: flex;
-flex-wrap: wrap;
+footer a {
+  text-align: center;
+  text-decoration: none;
+  color: #55917f;
+  font-weight: 700;
+}
+
+footer a:hover {
+  color: #5e4c5a;
+
 }
 
 .social{
