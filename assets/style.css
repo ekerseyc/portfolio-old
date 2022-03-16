@@ -8,6 +8,7 @@
 }
 
 header {
+  flex-wrap: wrap;
   align-items: center;
   padding: 20px;
   padding-bottom: 175px;
@@ -91,7 +92,7 @@ nav a:hover {
 
 #project-2, #project-3 {
   width: 50%;
-  height: auto;
+  height: 400px;
   position: relative;
 }
 
